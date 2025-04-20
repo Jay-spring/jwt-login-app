@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>ログインしました！</h1>
+    <button id="logoutBtn">ログアウト</button>
+
+    <script src="js/logout.js"></script>
+    <script>
+      // ログイン状態のチェック（ログインしていないならloginにリダイレクト）
+      const token = localStorage.getItem("token");
+      // localStorage から保存されたJWTトークンを取得、ログイン済みの場合、トークンが保存されているはず
+      if (!token) {
+        // トークンが存在しない = ログインしていないorログアウト済み
+        // その場合、login.html にリダイレクトさせる
+        window.location.href = "/login.html";
+      }
+    </script>
+    <!-- このページを表示していい人かどうかの判断は、そのページ（ここでは dashboard.html）でチェックするのが自然 -->
+    <!-- dashboard.html を開いた瞬間にログイン状態を確認する必要があるので、ページロード時に即実行される <script> 内に直接書くのが最適 -->
+  </body>
+</html>
