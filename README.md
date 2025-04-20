@@ -26,6 +26,7 @@ Node.js+Express+MongoDB+JWTを使って構築した「ユーザー登録・ロ�
 
 ## ディレクトリ構成
 
+```
 .
 └── jwt-login-ap
     ├── README.md
@@ -47,6 +48,7 @@ Node.js+Express+MongoDB+JWTを使って構築した「ユーザー登録・ロ�
     └── node_modules/
     Postman
     MongoDB
+```
 
 ## 認証APIテスト手順（Postman）
 
