@@ -45,8 +45,8 @@ Node.js+Express+MongoDB+JWTを使って構築した「ユーザー登録・ロ�
     │       ├── login.js
     │       └─ logout.js    
     └── node_modules/
-    Postman
-    MongoDB
+Postman
+MongoDB
 ```
 
 ## 認証APIテスト手順（Postman）
