@@ -31,7 +31,6 @@ Node.js+Express+MongoDB+JWTを使って構築した「ユーザー登録・ロ�
 └── jwt-login-ap
     ├── README.md
     ├── server.js
-    ├── users.json
     ├── .env
     ├── .gitignore
     ├── package.json
