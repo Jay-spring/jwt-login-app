@@ -26,26 +26,27 @@ Node.js+Express+MongoDB+JWTを使って構築した「ユーザー登録・ロ�
 
 ## ディレクトリ構成
 
-jwt-login-app/
-├─ README.md
-├─ public/
-│   ├─ register.html
-│   ├─ login.html
-│   ├─ dashboard.html
-│   └─ js/
-│       ├─ register.js
-│       ├─ login.js
-│       └─ logout.js
-├─ server.js
-├─ models/
-│   └─ User.js
-├─ users.json
-├─ .env
-├─ .gitignore
-├─ package.json
-└─ node_modules/
- Postman
- MongoDB
+.
+└── jwt-login-ap
+    ├── README.md
+    ├── server.js
+    ├── users.json
+    ├── .env
+    ├── .gitignore
+    ├── package.json
+    ├── models
+    │   └── User.js
+    ├── public
+    │   ├── register.html
+    │   ├── login.html
+    │   ├── dashboard.html
+    │   └── js
+    │       ├── register.js
+    │       ├── login.js
+    │       └─ logout.js    
+    └── node_modules/
+    Postman
+    MongoDB
 
 ## 認証APIテスト手順（Postman）
 
